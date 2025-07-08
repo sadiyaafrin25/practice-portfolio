@@ -1,0 +1,75 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary-text{
+    color: #fd6e0a;
+}
+    .text-centre{
+        text-align: center;
+    }
+.header{
+    background-image: url(./images/developer.png),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+.btn{
+    background-color: #fd6e0a;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: none;
+}
+.dark-2{
+    color: #474747;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 230px;
+    
+}
+.banner-content{
+    max-width: 580px;
+}
+.skills-container{
+    display: flex;
+      align-items: center;
+}
+.skills{
+   justify-content: space-around;
+   align-items: center;
+   margin: 0 auto;
+   padding: 5%;
+   background-color: antiquewhite;
+}
